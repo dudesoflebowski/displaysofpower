@@ -234,8 +234,9 @@ a {
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active > a {
       color: #000;
+	  font-weight: 700;
       position: relative; }
-      .site-navbar .site-navigation .site-menu .active > a:before {
+/*      .site-navbar .site-navigation .site-menu .active > a:before {
         content: "";
         position: absolute;
         left: 10px;
@@ -243,7 +244,7 @@ a {
         height: 2px;
         background: #000;
         bottom: 0; }
-    .site-navbar .site-navigation .site-menu a {
+ */   .site-navbar .site-navigation .site-menu a {
       text-decoration: none !important;
       font-size: 15px;
       display: inline-block; }
